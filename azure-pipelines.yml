@@ -232,6 +232,7 @@ stages:
         workspace:
           clean: all
         displayName: OSX Phase
+        timeoutInMinutes: 120
         pool:
           name:  $(osx2019VmPool)
           vmImage: $(macOSXVmImage)
